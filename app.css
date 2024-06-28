@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:purple ;
+
+}
+
+.container{
+    width: 690px;
+    background-color: white;
+    border-radius: 15px;
+    padding:15px;
+
+
+}
+.wrapper{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom:1px solid black;
+}
+.text-input .translateto{
+    border-radius: 2px;
+    border-left:1px solid darkgray;
+
+}
+.text-input textarea{
+    width: 100%;
+    height: 250px;
+    border: none;
+    outline: none;
+    background: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px ;
+
+
+}
+.controls,li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+
+}
+
+
+.controls{
+    padding: 6px 6px;
+    list-style: none;
+
+
+}
+.controls .icons i{
+    width: 50px;
+    color:lightblue;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.controls .rowfrom select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+
+
+}
+.controls .rowto select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+
+
+}
+.controls .exchange{
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: purple;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+
+
+}
